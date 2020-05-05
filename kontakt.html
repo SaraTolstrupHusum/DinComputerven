@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Din Computerven /v Sara Husum</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Inter|Open+Sans|Roboto|Roboto+Condensed|Sen&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styleRest.css">
+</head>
+
+<body>
+    <!-- <div class='forside'> -->
+        <div class='topBanner'>
+            <img class='logo' src='./images/logo.jpeg' alt="Din Computerven firma logo"/>
+            <div class='logotext'>
+                - brug for hjælp til IT?
+            </div>
+        </div>
+
+        <div class="contact-highlighter">
+            <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                <p class="lowLight">Ring alle ugens dage fra kl. 9.00-20.00 på tlf:</p>
+                <p class="phone">28579293</p>
+                <p class="lowLight">eller klik på</p>
+                <a href="./kontakt.html" class="contact-info"> Kontakt</a>
+            </marquee>
+        </div>
+
+        <div class="hamburgerBanner">
+            <a href="javascript:void(0);" class="icon" onclick="responsify()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
+            <div class="topnav" id="navigationMenu">
+                <a href="./index.html">Forside</a>
+                <a href="./pc_print.html">PC/printer</a>
+                <a href="./mobil_tablet.html">Mobil/tablet</a>
+                <a href="./internet.html">Internet</a>
+                <a href="./om.html">Om</a>
+                <a href="./kontakt.html" class="active">Kontakt</a>
+            </div>
+        </div>
+
+        <div class="pageContent">
+            <div class="pageIMG">
+                <img id= "profil" src='./images/Profil.jpg' alt= "Profilbillede af Sara, Din Computerven." />
+            </div>
+            <div class="pageText">
+                <br>
+                <p id="phoneSplash">28579293</p>
+                <p id="praktisk">Ring eller sms alle ugens dage mellem kl. 9.00-21.00 eller send mig en mail, så kontakter jeg dig hurtigst muligt.</p>
+              <div id="mail">  
+                <a id="mailButton" href="mailto:sarathusum@gmail.com?subject=Min%20IT%20driller!&body=Jeg%20har%20brug%20for%20hjælp%20til..." target="_blank">Send mail</a>
+              </div>
+              <div class="pageText">
+                <p id= "error"> <br>Hvis knappen ikke virker, kan du sende en almindelig mail til mig på: sarathusum@gmail.com</p>
+              </div>
+            </div>
+        </div>
+    <!-- </div> Har jeg brug for forside div'en?-->
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
